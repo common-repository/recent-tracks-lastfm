@@ -1,0 +1,33 @@
+.recent-tracks{
+	width: 240px;
+	display: block;
+	margin: 0 auto;
+}
+.track-item{
+	display: inline-block;
+	width: 200px;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 4px;
+}
+.track-item:hover{
+	cursor: pointer;
+	background-color: rgba(0,0,0,.1);
+}
+.track-item a{
+	display: block;
+	text-decoration: none !important;
+}
+.track-item img{
+	position: relative;
+	top: -17px;
+}
+.track-description{
+	font-size: 10pt;
+	color: rgba(0,0,0,.5);
+	width: 160px;
+	display: inline-block;
+}
+.track-description:hover{
+	color: rgba(0,0,0,.8);
+}
